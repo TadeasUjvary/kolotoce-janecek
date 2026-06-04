@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <url>
+    <loc>https://kolotoce-janecek.cz/</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/01-soumrak-retezak.jpg</image:loc>
+      <image:caption>Řetízkový kolotoč a věž kostela za soumraku</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/02-pout-zlaty-soumrak.jpg</image:loc>
+      <image:caption>Pouť za zlatého soumraku – loď Black Flash a ruské kolo</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/08-pohled-shora.jpg</image:loc>
+      <image:caption>Pohled na pouť shora – kolotoč a autodrom</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/og-cover.jpg</image:loc>
+      <image:caption>Kolotoče Janeček — pouťové atrakce</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kolotoce-janecek.cz/galerie.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/01-soumrak-retezak.jpg</image:loc>
+      <image:caption>Řetízkový kolotoč za soumraku</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/04-break-dance-noc.jpg</image:loc>
+      <image:caption>Atrakce Break Dance rozzářená v noci</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/03-labuti-kolotoc-noc.jpg</image:loc>
+      <image:caption>Rozsvícený labutí kolotoč v noci</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/10-skakaci-hrad.jpg</image:loc>
+      <image:caption>Skákací hrad a maskot na slunném náměstí</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/13-mestska-slavnost.jpg</image:loc>
+      <image:caption>Vystoupení na městské slavnosti před davem</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://kolotoce-janecek.cz/images/photos/15-autodrom.jpg</image:loc>
+      <image:caption>Autodrom – narážecí autíčka</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kolotoce-janecek.cz/zasady-ochrany-udaju.html</loc>
+    <lastmod>2026-06-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

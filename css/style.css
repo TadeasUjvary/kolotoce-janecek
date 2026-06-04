@@ -248,6 +248,26 @@ body.nav-open .nav-toggle span::after{transform:translate(-50%,-50%) rotate(-45d
 .prose .op-card p{margin-bottom:6px}
 .todo{background:#fff3cd;color:#806100;padding:1px 8px;border-radius:6px;font-weight:600;font-size:.9em}
 
+/* ---------- FAQ accordion ---------- */
+.faq-list{max-width:780px;margin-inline:auto;display:grid;gap:12px}
+.faq{background:var(--bg);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-sm);transition:box-shadow .25s,border-color .25s}
+.faq:hover{box-shadow:var(--shadow);border-color:rgba(0,100,175,.2)}
+.faq[open]{border-color:var(--blue);box-shadow:0 8px 28px -12px rgba(0,100,175,.2)}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:16px;
+  padding:20px 24px;cursor:pointer;font-family:"Poppins",sans-serif;font-weight:600;font-size:1.05rem;color:var(--ink);
+  list-style:none;-webkit-appearance:none;transition:color .2s}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::marker{display:none;content:""}
+.faq summary:hover{color:var(--blue)}
+.faq-chevron{width:22px;height:22px;flex:none;color:var(--muted);transition:transform .3s ease,color .3s}
+.faq[open] .faq-chevron{transform:rotate(180deg);color:var(--blue)}
+.faq__answer{padding:0 24px 22px;color:var(--muted);font-size:1rem;line-height:1.7;
+  animation:faqIn .3s ease}
+.faq__answer p{margin:0}
+.faq__answer a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+.faq__answer a:hover{color:var(--blue-700)}
+@keyframes faqIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
 /* ---------- Contact CTA ---------- */
 .cta{position:relative;overflow:hidden;color:#fff;background:var(--sunset)}
 .cta::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,120,.55),transparent 70%);top:-190px;right:-120px;filter:blur(10px)}
