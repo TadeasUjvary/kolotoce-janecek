@@ -1,0 +1,22 @@
+{
+  "name": "kolotoce-janecek",
+  "version": "1.0.0",
+  "description": "Statický web (HTML / CSS / JS) pro pouťové atrakce **Kolotoče Janeček** — _Zábava, která roztáčí radost._",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TadeasUjvary/kolotoce-janecek.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TadeasUjvary/kolotoce-janecek/issues"
+  },
+  "homepage": "https://github.com/TadeasUjvary/kolotoce-janecek#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
