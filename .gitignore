@@ -1,0 +1,7 @@
+# OS
+.DS_Store
+
+# Závislosti / nástroje
+node_modules/
+.vercel/
+*.log
