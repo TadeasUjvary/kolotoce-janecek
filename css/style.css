@@ -233,6 +233,21 @@ body.nav-open .nav-toggle span::after{transform:translate(-50%,-50%) rotate(-45d
 .page-hero h1{font-size:clamp(2.1rem,5vw,3.4rem);font-weight:800}
 .page-hero p{max-width:620px;margin:16px auto 0;color:var(--muted)}
 
+/* ---------- Textová / právní stránka ---------- */
+.prose{max-width:780px;margin-inline:auto}
+.prose h2{font-size:clamp(1.25rem,2.3vw,1.6rem);margin-top:42px;margin-bottom:12px}
+.prose h2:first-child{margin-top:0}
+.prose p{margin-bottom:14px;color:#33424f}
+.prose ul{margin:0 0 16px 1.2em;display:grid;gap:9px}
+.prose li{color:#33424f}
+.prose a{color:var(--blue);text-decoration:underline;text-underline-offset:2px}
+.prose a:hover{color:var(--blue-700)}
+.prose strong{color:var(--ink)}
+.prose .updated{color:var(--muted);font-size:.92rem;margin-top:34px;padding-top:18px;border-top:1px solid var(--line)}
+.prose .op-card{background:var(--bg-soft);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 22px;margin-bottom:8px}
+.prose .op-card p{margin-bottom:6px}
+.todo{background:#fff3cd;color:#806100;padding:1px 8px;border-radius:6px;font-weight:600;font-size:.9em}
+
 /* ---------- Contact CTA ---------- */
 .cta{position:relative;overflow:hidden;color:#fff;background:var(--sunset)}
 .cta::before{content:"";position:absolute;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle,rgba(255,214,120,.55),transparent 70%);top:-190px;right:-120px;filter:blur(10px)}
