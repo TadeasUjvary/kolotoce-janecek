@@ -5,5 +5,9 @@
   "compatibility_date": "2026-10-01",
   "workers_dev": true,
   "preview_urls": false,
+  "routes": [
+    { "pattern": "kolotoce-janecek.cz", "custom_domain": true },
+    { "pattern": "www.kolotoce-janecek.cz", "custom_domain": true }
+  ],
   "assets": { "directory": ".", "html_handling": "none" }
 }
